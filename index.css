@@ -73,7 +73,19 @@ li a:hover{
 .best_menu p{
     margin-top: 10px;
     text-align: center;
-    display: flex;
-    justify-content: center;
 }
 
+.best_menu .box{
+    width: 40vh;
+    height: 60vh;
+    border-radius: 20px;
+    margin-top: 50px;
+    background-color: antiquewhite;
+    text-align: center;
+    align-items: center;
+}
+.container_box{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
