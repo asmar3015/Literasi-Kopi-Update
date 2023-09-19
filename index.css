@@ -2,110 +2,109 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container{
     min-height: 100vh;
+    width: 100%;
     background-image: url(/asset/Coffee_\ The\ Liquid\ Miracle\ 1.png);
     background-repeat: no-repeat;
-}
-nav{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
+    position: relative;
+    /* z-index: 1; */
 }
+.hero{
+    flex-grow: 1;
+    height: 40px;
+    text-align: center;
+    color: whitesmoke;
 
-h1{
-    color: white;
 }
-
-nav ul{
+.navbar{
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-grow: 1;
-}
-
-nav ul li{
+    height: 40px;
+    flex-grow: 9;
+    flex-wrap: wrap;
     list-style: none;
-    margin: 20px;
+    gap: 10px;
 }
 
-li a{
-    display: block;
-    color: white;
-    font-size: 15px;
+.navbar li{
+    border: 1px solid white;
+    padding: 10px 40px;
+}
+.navbar li a{
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
-    padding: 10px;
-}
-
-li a:hover{
-    background-color: brown;
-    color: blanchedalmond;
-    border-radius: 5px;
 }
 
 .text{
+    position: absolute;
     width: 50%;
-    margin: 30vh 0 0 8vh;
+    margin: 40vh 0 0 8vh;
     font-size: 20px;
+    z-index: 1;
+    color: white;
 }
 .texthead{
     margin-bottom: 20px;
     font-size: 50px;
     color: white;
 }
-.text p{
-    color: white;
-}
 
-.best_menu{
-    min-height: 100vh;
-}
-
-.best_menu h1{
-    margin-top: 10vh;
-    color: black;
+.best h1{
+    margin-top: 100px;
     text-align: center;
 }
 
-.best_menu p{
-    margin-top: 10px;
-    text-align: center;
-}
 
-.best_menu .box{
-    width: 40vh;
-    height: 50vh;
-    border-radius: 20px;
-    margin-top: 50px;
-    background-color: antiquewhite;
-    text-align: center;
-    align-items: center;
-}
-.container_box{
+.box_container{
+    width: 70%;
     display: flex;
-    justify-content: center;
-    gap: 10px;
+    margin: auto;
+    flex-wrap: wrap;
 }
 
-
+.box{
+    width: 200px;
+    height: 300px;
+    margin: 40px auto;
+    background-color: pink;
+    border-radius: 10px;
+    text-align: center;
+}
+.box img{
+    margin-left: 5px;
+}
 .box p{
+    margin: 5px;
+}
+
+.box button{
+    width: 150px;
     padding: 10px;
-}
-
-.box .btn{
-    margin-top: 20px;
-    padding: 5px 80px 5px 80px;
-    border-radius: 20px;
-    background-color: burlywood;
+    margin-top: 5px;
+    border-radius: 10px;
     border: none;
-    font-size: 15px;
-    transition: .4s;
+    font-weight: bold;
+    background-color: blanchedalmond;
 }
 
-.btn:hover{
-    background-color: brown;
-    color: white;
+
+.owner{
+    width: 90%;
+    height: 30vh;
+    margin: auto;
+    background-color: burlywood;
 }
+
+.owner img{
+
+}
+
+
+
