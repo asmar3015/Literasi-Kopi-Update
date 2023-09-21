@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container_utama{
+    height: max-content;
+    background-image: radial-gradient(#FACEB5, #C08261);
+}
+/* bagian navbar */
+.container{
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+.hero{
+    flex-grow: 1;
+    height: 40px;
+    margin-top: 20px;
+    text-align: center;
+    color: black;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    flex-grow: 9;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 10px;
+}
+
+.navbar li{
+    margin-top: 20px;
+    border: 1px solid black;
+    padding: 10px 40px;
+}
+.navbar li a{
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+/* end navbar */
+
+.container_menu{
+    width: 50%;
+    margin: auto;
+}
+.about{
+    text-align: center;
+    margin-top: 80px;
+}
+.about p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+/* END ABOUT */
+/* item */
+.box_book{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.box_book img{
+    border-radius: 10px;
+}
+
+.box_book button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    color: whitesmoke;
+    background-color: #9A3B3B;
+}
+
+.container_item{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 50px auto;
+}
+
+.container_slider{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    /* margin: -400px; */
+    background-color: #9A3B3B;
+}
+.container_slider i{
+    font-size: 100px;
+}
