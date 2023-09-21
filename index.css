@@ -3,13 +3,19 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
+.container_utama{
+    background-image: radial-gradient(#FACEB5, #C08261);
 
+}
+/* bagian navbar */
 .container{
-    min-height: 100vh;
+    min-height: 80vh;
     width: 100%;
     background-image: url(/asset/Coffee_\ The\ Liquid\ Miracle\ 1.png);
-    background-repeat: no-repeat;
+    background-repeat:round;
+    /* background-size: contain; */
     display: flex;
     position: relative;
     /* z-index: 1; */
@@ -17,6 +23,7 @@
 .hero{
     flex-grow: 1;
     height: 40px;
+    margin-top: 20px;
     text-align: center;
     color: whitesmoke;
 
@@ -32,6 +39,7 @@
 }
 
 .navbar li{
+    margin-top: 20px;
     border: 1px solid white;
     padding: 10px 40px;
 }
@@ -56,11 +64,33 @@
     color: white;
 }
 
-.best h1{
+/* end navbar */
+.container_buku{
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+    gap: 50px;
+}
+.box_book{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.box_book button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    color: whitesmoke;
+    background-color: #9A3B3B;
+}
+/* bagian menu */
+.best{
     margin-top: 100px;
     text-align: center;
 }
-
 
 .box_container{
     width: 70%;
@@ -70,10 +100,10 @@
 }
 
 .box{
-    width: 200px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     margin: 40px auto;
-    background-color: pink;
+    background-color: #C08261;
     border-radius: 10px;
     text-align: center;
 }
@@ -94,14 +124,75 @@
     background-color: blanchedalmond;
 }
 
+/* end bagian menu */
 
+/* bagian buku */
+
+/* end buku */
+/* bagian owner */
 .owner{
-    width: 90%;
-    height: 30vh;
-    margin: auto;
-    background-color: burlywood;
+    width: 50%;
+    /* padding: 20px; */
+    margin: 20px auto;
+    border-radius: 20px;
+    background-color: #C08261;
 }
 
+.owner .image{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.owner .image .text_owner{
+    width: 60%;
+    margin-top: 20px;
+}
+.owner .image .text_owner h1{
+    margin-bottom: 20px;
+}
+
+/* end bagian owner */
+
+/* bagian testimonial */
+
+.testi{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.box_testi{
+    width: 400px;
+    /* height: 400px; */
+    margin: 50px auto;
+    background-color: #FACEB5;
+    border-radius: 20px;
+    /* box-shadow: 10px 10px  30px 10px black; */
+    box-shadow:  10px 10px 10px rgba(0, 0, 0, 0.418)
+    
+}
+.box_testi .box1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.box_testi .box1 h3{
+    margin-top: 20px;
+}
+hr{
+    width: 200px;
+    margin-top: 10px;
+    border: 2px solid black;
+}
+
+.box_testi .box1 p{
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* end bagian testimonial */
 
 
 

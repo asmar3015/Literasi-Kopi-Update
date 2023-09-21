@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container_utama{
+    width: 100%;
+    height: max-content;
+    background-image: radial-gradient(#FACEB5, #C08261);
+}
+/* bagian navbar */
+.container{
+    min-height: 80vh;
+    width: 100%;
+    background-image: url(/asset/Premium\ Photo\ _\ An\ open\ old\ book\ lies\ on\ a\ dark\ wooden\ surface\ on\ a\ gray\ background\ closeup\ 1.png);
+    /* background-repeat:round; */
+    background-size: cover;
+    display: flex;
+    position: relative;
+}
+.hero{
+    flex-grow: 1;
+    height: 40px;
+    margin-top: 20px;
+    text-align: center;
+    color: whitesmoke;
+
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    flex-grow: 9;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 10px;
+}
+
+.navbar li{
+    margin-top: 20px;
+    border: 1px solid white;
+    padding: 10px 40px;
+}
+.navbar li a{
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.text{
+    position: absolute;
+    width: 50%;
+    margin: 25vh 0 0 8vh;
+    font-size: 20px;
+    z-index: 1;
+    color: white;
+}
+.texthead{
+    margin-bottom: 20px;
+    font-size: 50px;
+    color: white;
+}
+/* end navbar */
+
+.container_katalog{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: space-evenly;
+    position: absolute;
+    margin-top: -100px;
+}
+
+.katalog img{
+    border-radius: 20px;
+}
+.katalog h2{
+    margin-top: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.katalog a{
+    text-decoration: none;
+    color: black;
+}
+/* end katalog */
+
+/* banner */
+.containerbanner{
+    text-align: center;
+    width: 100%;
+    margin: 400px auto;
+}
+.containerbanner img{
+    border-radius: 20px;
+}
+/* end banner */
+/* buku */
+.best{
+    margin-top: 100px;
+    text-align: center;
+}
+.container_buku{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 50px auto;
+    gap: 50px;
+}
+.box_book{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.box_book button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    color: whitesmoke;
+    background-color: #9A3B3B;
+}
+
